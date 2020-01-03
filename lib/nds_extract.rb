@@ -19,7 +19,7 @@ def directors_totals(nds)
   # Be sure to return the result at the end!
   
   
-  directors_totals = {}
+  directors_totals = {
   i = 0
   
   while i < nds.length do 
