@@ -21,5 +21,5 @@ def directors_totals(nds)
   # Be sure to return the result at the end!
   directors_totals = {}
   name_index = 0
-  nil
+  # nil
 end
