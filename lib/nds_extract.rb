@@ -24,16 +24,16 @@ def directors_totals(nds)
   
   while i < nds.length do 
     director_name = nds[i][:name]
-    total[director_name] = 0
+    directors_totals[director_name] = 0
     movie_index = 0
   while movie_index < nds[i][:movies].length do
-    total[director_name] += nds[i][:movies][movie_index][i]
+    directors_totals[director_name] += nds[i][:movies][movie_index][i]
     movie_index += 1
     
   end
   i += 1
 end
-  total
+  directors_totals
   # nil
 end
 }
