@@ -24,6 +24,7 @@ def directors_totals(nds)
   
   while i < nds.length do 
     director_name = nds[i][:name]
+    total[director_name]
     
   
   # nil
