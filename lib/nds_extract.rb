@@ -23,7 +23,7 @@ def directors_totals(nds)
   i = 0
   
   while i < nds.length do 
-    director_name =
+    director_name = i[]
     
   
   # nil
