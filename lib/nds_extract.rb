@@ -21,5 +21,8 @@ def directors_totals(nds)
   
   directors_totals = {}
   name_index = 0
+  
+  while name_index < nds.length
+  
   # nil
 end
